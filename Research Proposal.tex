@@ -22,7 +22,13 @@ Human-Robot interactions require complex knowledge about the environment and the
 With real-time knowledge of a persons position and the position of their limbs behavior recognition can be performed\cite{journals/ijsr/MeadAM13}. Behavior recognition is an important component of 
 \section{Goals}
 \section{Related Work}
+Today one common issue with RGB-D sensors is the limitation of positioning in an environment. Due to the fact that most RGB-D Sensors like the kinect for instance, use an IR pattern at a certain frequency to understand the scene depth. This poses a problem when two kinects project on the same objects where one kinect can see the IR pattern of the other making the signal ambiguous. Some attempts to vibrate each additional kinect at different frequencies have been used to allow the different IR fields to be in a different phase out of view of each other.
 \section{Proposed Research}
+I would like to attempt to use the new Kinect one sensor instead of the IR techonology in the hopes to produce a system capable of using N-TOFsensors in an arbitrary space to perform behavior analysis for HRI.
+
+This will provide a cheaper way for researchers to analyze Human robot interactions and have feedback to robots about a persons current state in a given interaction. This will allow for an easy setup of sensors that give a robot far more information about a given HRI without the need to perform the computation on the robot itself. This means the current state of the human behavior as well as accurate human position will be known by robots in larger spaces than possible with a single kinect. This will avoid the necessity for complex tracking markers on participants. There has been a lot of work on tracking multiple people in RGB-D environments. This will also allow for multi-robot and multi-person interactions to take place in a more efficient manor that avoid each robot performing redundant computation to understand the location of each person in a given scenario. The end goal is to provide a fused scene where each person has a skeleton representing their position.
+
+I will use known a priori objects and place them in the scene. I will then compare the accuracy of the position as well as shape of the registered objects. This can also be done with a person but with less accuracy. I can also compare my method against other published methods.
 \section{Expected Outcomes}
 \section{Time-line}
 
