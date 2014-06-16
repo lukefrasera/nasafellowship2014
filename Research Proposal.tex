@@ -5,11 +5,42 @@
 \usepackage{amssymb}
 \usepackage{graphicx}
 \usepackage[left=1in,right=1in,top=1in,bottom=1in]{geometry}
+
 \author{Luke Fraser}
-\title{Multi-Person and Multi-Robot Behaviour Recognition Room using N-TOF Cameras}
+\title{Multi-Person and Multi-Robot Behaviour Recognition Room using N-Time of Flight Cameras}
 \begin{document}
 \maketitle
 \begin{abstract}
-I want to develop a multi-RGB-D sensor setup that tracks multiple people, Identifies pose, identifies people, and performs behaviour recognition in a research environment. An environment with occlusions and obstacles that would otherwise make it difficult or impossible for a single RGB-D sensor to be used. Information from the system can then be sent to robots involved in interactions in real-time allowing for more complex behaviour responses.
+Currently systems have been developed to track people and provide low level feedback in relatively small indoor environments with occlusions using multiple RGB-D sensors. This project aims to develop a multi-RGB-D sensor system that tracks multiple people, identifies pose, identifies people, in larger indoor environments with occlusions and feeds back high-level behavior recognition to robots for Human-Robot interactions. The project will help make multi-person and multi-robot interactions in cooperative environments easier and more feasible. The two components of the system, people tracking and behavior recognition will be validated against hand tracked and recognized footage.
 \end{abstract}
+
+\section{Motivation}
+Human-Robot interaction is a growing field of robotics and multi-robot and multi-person cooperative environments are an important area of robotics research \cite{5928680, Schultz:2005:TCR:1052438.1052456}. Efforts to develop robots that are cooperative with people in different environments is the focus of much research. Robot cooperation has the potential to provide a symbiotic relationship with people, where the robot is able to perform more complicated tasks with human aid and the human benefits from assistance of the robot. Complex tasks are more obtainable for robots with cooperation\cite{6631192}. Just as people cooperate to complete complex tasks, so can robots.
+
+Human-Robot interactions require complex knowledge about the environment and the people involved in the interactions in order to make sophisticated decisions. A robot will typically have on board sensors to understand its environment. Laser scanners, Microsoft kinect, and stereo cameras are some of the sensors commonly used to understand a 3D environment and track the position of human participants. The requirements to understand the position of people involved in an interaction is a complex task. Tracking people requires computation and in many cases is not the underlying purpose of a given interaction. Position information of people in a given scene is necessary for human interactions to take place.
+
+With real-time knowledge of a persons position and the position of their limbs behavior recognition can be performed\cite{journals/ijsr/MeadAM13}. Behavior recognition is an important component of 
+\section{Goals}
+\section{Related Work}
+\section{Proposed Research}
+\section{Expected Outcomes}
+\section{Time-line}
+
+\bibliography{references}
+\bibliographystyle{plain}
+\newpage
+\section{Publication Plan}
+The results of this work will be submitted to robotics conferences such as:
+\begin{itemize}
+ \item RSS - Robotics Science and Systems
+ \item IROS - Intelligent Robots and Systems
+ \item ICRA - International Conference on Robotics and Automation
+ \item RO-MAN - International Symposium on Robot and Human Interactive Communication
+\end{itemize}
+
+\section{Transcript}
+\section{Endorsement Letters}
+\section{CV}
+\section{Statement of Career Goals}
+
 \end{document}
